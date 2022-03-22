@@ -3,7 +3,7 @@
   setTimeout(function () {
     titleScroller(text.substr(1) + text.substr(0, 1));
   }, 500);
-}("BeamedByFlegg-"));
+}("Beamed-By-Flegg-"));
 
 var logCredits = function logCredits() {
     const logStyle = [

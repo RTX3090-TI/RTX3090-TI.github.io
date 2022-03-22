@@ -441,7 +441,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: url("../assets/img/Background1.jpg");
+  background: url("../assets/img/Backround2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -602,7 +602,7 @@ body {
 .track-art {
   height: 150px;
   width: 150px;
-  background-image: url("https://img.zoronetwork.ru/_r/300x400/100/7f/c6/7fc61d82b89949dff4319bd73ff2d456/7fc61d82b89949dff4319bd73ff2d456.jpg");
+  background-image: linear-gradient(to right,rgb(51, 255, 0), rgb(255, 230, 0), red, rgb(234, 0, 255), rgb(0, 140, 255), rgb(51, 255, 0));
   background-size: cover;
   border-radius: 15%;
 }
