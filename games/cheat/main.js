@@ -2575,35 +2575,35 @@ function setB(){
 }
 
 function cheatClips(){
-    clips = clips + 100000000;
-    unusedClips = unusedClips + 100000000;
+    clips = clips * 100;
+    unusedClips = unusedClips * 100;
     displayMessage("you just cheated");
     }
 
 function cheatMoney(){
-    funds = funds + 10000000;
+    funds = funds * 100;
     document.getElementById("funds").innerHTML = funds.toFixed(2);
-    displayMessage("LIZA just cheated");
+    displayMessage("you just cheated");
     }
 
 function cheatTrust(){
     trust = trust+1;
-    displayMessage("Hilary is nice. Also, Liza just cheated");
+    displayMessage("you just cheated");
     }
 
 function cheatOps(){
-    standardOps = standardOps + 10000;
+    standardOps = standardOps + 100000;
     displayMessage("you just cheated, Liza");
     }
 
 function cheatCreat(){
     creativityOn = 1;
-    creativity = creativity + 1000;
-    displayMessage("Liza just cheated. Very creative!");
+    creativity = creativity + 10000;
+    displayMessage("you just cheated. Very creative!");
     }
 
 function cheatYomi(){
-    yomi = yomi + 1000000;
+    yomi = yomi + 10000000;
     document.getElementById("yomiDisplay").innerHTML = yomi.toLocaleString();
     displayMessage("you just cheated");
     }
