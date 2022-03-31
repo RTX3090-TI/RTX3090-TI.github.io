@@ -48,10 +48,6 @@ html *::after {
   box-shadow: 0 5px #666;
 }
 
-.playlist-button:active  {
-  window.location.href=https://www.hyperlinkcode.com/button-links.php
-}
-
 .animate-charcter
 {
     display: inline-block:
